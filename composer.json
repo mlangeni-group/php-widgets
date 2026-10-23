@@ -1,0 +1,56 @@
+{
+  "name": "machinjiri/php-widgets",
+  "description": "UI Library to accelerate UX development for Machinjiri Framework",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Precious Lyson",
+      "email": "precious.lyson@gmail.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Mlangeni Group",
+      "email": "mlangenigroupqm@gmail.com",
+      "role": "Company"
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mlangeni\\Machinjiri\\Widgets\\": "src/PHPWidgets/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mlangeni\\Machinjiri\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "keywords": [
+    "mlangeni",
+    "machinjiri",
+    "preciouslyson",
+    "framework",
+    "php",
+    "lightweight",
+    "web",
+    "development",
+    "ui",
+    "widgets"
+  ]
+}
